@@ -7,7 +7,7 @@ const port = 3000;
 
 const RADIOBOSS_INFO_URL = 'https://ritmoboss.moxapps.shop/?pass=moxradioserver&action=playbackinfo';
 const RADIOBOSS_IMG_URL = 'https://ritmoboss.moxapps.shop/?pass=moxradioserver&action=trackartwork';
-const STREAM_URL = 'https://mox.moxapps.shop/stream';
+const STREAM_URL = 'https://ritmo.moxapps.shop/stream';
 
 // Ruta para obtener los metadatos procesados
 app.get('/metadata', async (req, res) => {
